@@ -97,3 +97,17 @@ Steps for Building Model in Edge Impulse:
   ![image](https://user-images.githubusercontent.com/82043667/121905450-bf979600-cd5c-11eb-8b3c-37a6aaedd575.png)
   
   j. Copy the "main.cpp" in the following link and paste the code into the "main.cpp" inside the STM32CubeIDE (Link: https://github.com/Cheong-Zheng-Quan/MKEL1123-06-Milestone-5/tree/main/Core/Src)
+
+18. Click on the “Hammer” icon at the top to build the project and make sure there’s no error.
+19. Click on the “Play” icon at the top to run the code on the board. Leave the settings as default and click “OK”. [** Make sure your board is connected to your computer before click the "Play" icon.]
+20. If this message shows up, it means the code has been successfully uploaded and it’s time to check your board!
+
+![image](https://user-images.githubusercontent.com/82043667/121906724-f9b56780-cd5d-11eb-874e-0ade36f42040.png)
+
+21. Open "Device Manager" in your computer and check which USB COM the board is connected to the computer.
+
+![image](https://user-images.githubusercontent.com/82043667/121907355-8f50f700-cd5e-11eb-82e9-31c41dbb91f8.png)
+
+22. Open "puTTY" in your computer and 
+
+![image](https://user-images.githubusercontent.com/82043667/121907558-bdced200-cd5e-11eb-8008-a892bc017323.png)
