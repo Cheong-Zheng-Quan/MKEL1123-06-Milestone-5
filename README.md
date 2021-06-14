@@ -13,4 +13,5 @@ Application/Software required for this project:
 Steps for Building Model in Edge Impulse:
 1. Download the fruit images as the training and testing datasets from Kaggle (Link:https://www.kaggle.com/amoghmisra27/grocery-store-fruits-and-vegies)
 2. On "Dashboard", select "LET'S COLLECT SOME DATA".
+
 ![image](https://user-images.githubusercontent.com/82043667/121895225-8e19cd00-cd52-11eb-8b22-86bd0e151fcd.png)
