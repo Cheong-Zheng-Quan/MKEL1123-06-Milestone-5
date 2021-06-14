@@ -1,4 +1,5 @@
 # MKEL1123-06-Milestone-5
+# Procedure for "Application of Image Recognition System Using STM32 Microcontroller" Project 
 Group Members: 
 1. Cheong Zheng Quan MKE201040
 2. Vivian Voon Li Sin MKE201038
