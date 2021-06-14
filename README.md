@@ -80,6 +80,7 @@ Steps for Building Model in Edge Impulse:
   ![image](https://user-images.githubusercontent.com/82043667/121903867-4e0b1800-cd5b-11eb-9f16-45989e324b9f.png)
   
   h. Click the "Project Explorer" on the left menu bar so the .ioc file loses focus. Press "CTRL"+"s" to save the workspace and click "Yes" for both questions "Do you want to regenerate the code?" and "This action can be associated with C/C++ perspective. Do you want to open this perspective now?". Make sure a "Middleware" folder is generated which stored all the impulses and required libraries.
+ 
   i. Rename the "main.c" file under Core/Src in "Project Explorer" to "main.cpp", as C++ language is prefered to be used.
   
   ![image](https://user-images.githubusercontent.com/82043667/121905450-bf979600-cd5c-11eb-8b3c-37a6aaedd575.png)
