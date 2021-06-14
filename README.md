@@ -108,6 +108,21 @@ Steps for Building Model in Edge Impulse:
 
 ![image](https://user-images.githubusercontent.com/82043667/121907355-8f50f700-cd5e-11eb-82e9-31c41dbb91f8.png)
 
-22. Open "puTTY" in your computer and 
+22. Open "puTTY" in your computer and change the "Connection type:" to "Serial", insert the USB COM for the board connected to computer, and change the speed to 115200.
 
 ![image](https://user-images.githubusercontent.com/82043667/121907558-bdced200-cd5e-11eb-8008-a892bc017323.png)
+
+23. Finally, the results are shown in the puTTY interface.
+
+![image](https://user-images.githubusercontent.com/82043667/121908154-4baabd00-cd5f-11eb-955c-5282511f95d3.png)
+
+24. The values in the features arrays which represent the images of testing datasets as shown in figure below can be changed for different images. Go back to Edge Impulse and under "Live Classification", choose the preferred image and click "Load sample" button. Then, click on the "Copy to clipboard" button and back to the STM32CubeID and replace the values in either Array "feature0[]", Array "feature1[]", or Array "feature2[]" for trying out different images of testing datasets.
+
+![image](https://user-images.githubusercontent.com/82043667/121908645-c70c6e80-cd5f-11eb-9d2d-43600e610e66.png)
+
+![image](https://user-images.githubusercontent.com/82043667/121908913-020ea200-cd60-11eb-9d98-6727ee602553.png)
+
+![image](https://user-images.githubusercontent.com/82043667/121909052-25d1e800-cd60-11eb-9d08-fa7d785a5444.png)
+
+
+THANK YOU!
