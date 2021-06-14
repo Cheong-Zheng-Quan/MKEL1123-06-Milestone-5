@@ -95,4 +95,5 @@ Steps for Building Model in Edge Impulse:
   i. Rename the "main.c" file under Core/Src in "Project Explorer" to "main.cpp", as C++ language is prefered to be used.
   
   ![image](https://user-images.githubusercontent.com/82043667/121905450-bf979600-cd5c-11eb-8b3c-37a6aaedd575.png)
-
+  
+  j. Copy the "main.cpp" in the following link and paste the code into the "main.cpp" inside the STM32CubeIDE (Link: https://github.com/Cheong-Zheng-Quan/MKEL1123-06-Milestone-5/tree/main/Core/Src)
