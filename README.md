@@ -70,5 +70,10 @@ Steps for Building Model in Edge Impulse:
   b. Select "From Local..." and select the .pack file that just downloaded.
   c. Accept the license agreement, and the pack will be installed. The version number is automatically updated whenever the pack is exported.
   ![image](https://user-images.githubusercontent.com/82043667/121902354-d25c9b80-cd59-11eb-9ad5-43fe86969e27.png)
+  
+  d. Go back to the .ioc file and go to "Pinout & Configuration".
+  e. Click the down arrow beside "Software Packs", then select "Select Components".
+  f. Select the components by expanding the correct pack, then tick the checkbox under "Selection".
+  ![image](https://user-images.githubusercontent.com/82043667/121903302-befe0000-cd5a-11eb-9218-737b59f2aba9.png)
 
   
