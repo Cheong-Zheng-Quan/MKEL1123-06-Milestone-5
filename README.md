@@ -8,7 +8,7 @@ Group Members:
 Application/Software required for this project:
 1. Edge Impulse (Sign up for free from this link: https://www.edgeimpulse.com/)
 2. STM32CubeIDE (Download is available from this link: https://www.st.com/en/development-tools/stm32cubeide.html)
-
+3. puTTY (Download is available from this link: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 Steps for Building Model in Edge Impulse:
 1. Download the fruit images as the training and testing datasets from Kaggle (Link:https://www.kaggle.com/amoghmisra27/grocery-store-fruits-and-vegies)
@@ -54,5 +54,21 @@ Steps for Building Model in Edge Impulse:
 
 ![image](https://user-images.githubusercontent.com/82043667/121899908-6da04180-cd57-11eb-89b8-04ade1aa4552.png)
 
-12. Next, open the STM32CubeIDE and start a new project.
-13. 
+12. Next, open the STM32CubeIDE and start a new STM32 Project.
+13. Search for "NUCLEO-F446RE" under the "Board Selector" tab. Then click "Next".
+14. Enter the project name and choose "C++" as the Targeted Language.
+15. Select “Yes” if the system asks whether to “Initialize all peripherals with their default Mode?”.
+16. In the ioc files, enable the CRC.
+    a. Go to "Pinout & Configuration".
+    b. Select "Computing" then "CRC".
+    c. Enable the Activated checkbox.
+
+![image](https://user-images.githubusercontent.com/82043667/121901723-3894ee80-cd59-11eb-96c2-d7d9bcef1d5f.png)
+
+17. Add the CMSIS-PACK that just downloaded from Edge Impulse.
+  a. Go to "Help" in menu bar and select "Manage Embedded Software Packages".
+  b. Select "From Local..." and select the .pack file that just downloaded.
+  c. Accept the license agreement, and the pack will be installed. The version number is automatically updated whenever the pack is exported.
+  ![image](https://user-images.githubusercontent.com/82043667/121902354-d25c9b80-cd59-11eb-9ad5-43fe86969e27.png)
+
+  
