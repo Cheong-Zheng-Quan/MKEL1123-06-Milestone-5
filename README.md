@@ -59,24 +59,35 @@ Steps for Building Model in Edge Impulse:
 14. Enter the project name and choose "C++" as the Targeted Language.
 15. Select “Yes” if the system asks whether to “Initialize all peripherals with their default Mode?”.
 16. In the ioc files, enable the CRC.
+    
     a. Go to "Pinout & Configuration".
+    
     b. Select "Computing" then "CRC".
+    
     c. Enable the Activated checkbox.
 
 ![image](https://user-images.githubusercontent.com/82043667/121901723-3894ee80-cd59-11eb-96c2-d7d9bcef1d5f.png)
 
 17. Add the CMSIS-PACK that just downloaded from Edge Impulse.
+  
   a. Go to "Help" in menu bar and select "Manage Embedded Software Packages".
+  
   b. Select "From Local..." and select the .pack file that just downloaded.
+  
   c. Accept the license agreement, and the pack will be installed. The version number is automatically updated whenever the pack is exported.
+  
   ![image](https://user-images.githubusercontent.com/82043667/121902354-d25c9b80-cd59-11eb-9ad5-43fe86969e27.png)
   
   d. Go back to the .ioc file and go to "Pinout & Configuration".
+  
   e. Click the down arrow beside "Software Packs", then select "Select Components".
+  
   f. Select the components by expanding the correct pack, then tick the checkbox under "Selection". Click "OK" to close the window.
+  
   ![image](https://user-images.githubusercontent.com/82043667/121903302-befe0000-cd5a-11eb-9218-737b59f2aba9.png)
 
   g. Back to the "Pinout & Configuration", select "Software Packs" and click on the components under "Software Packs". Then, tick the checkbox under "Mode".
+  
   ![image](https://user-images.githubusercontent.com/82043667/121903867-4e0b1800-cd5b-11eb-9f16-45989e324b9f.png)
   
   h. Click the "Project Explorer" on the left menu bar so the .ioc file loses focus. Press "CTRL"+"s" to save the workspace and click "Yes" for both questions "Do you want to regenerate the code?" and "This action can be associated with C/C++ perspective. Do you want to open this perspective now?". Make sure a "Middleware" folder is generated which stored all the impulses and required libraries.
