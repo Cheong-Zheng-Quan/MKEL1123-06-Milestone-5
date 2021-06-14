@@ -120,7 +120,7 @@ Steps for Deploying Model in STM32CubeIDE:
 
 ![image](https://user-images.githubusercontent.com/82043667/121908154-4baabd00-cd5f-11eb-955c-5282511f95d3.png)
 
-24. The values in the features arrays which represent the images of testing datasets as shown in figure below can be changed for different images. Go back to Edge Impulse and under "Live Classification", choose the preferred image and click "Load sample" button. Then, click on the "Copy to clipboard" button and back to the STM32CubeID and replace the values in either Array "feature0[]", Array "feature1[]", or Array "feature2[]" for trying out different images of testing datasets.
+24. The values in the features arrays which represent the images of testing datasets as shown in figure below can be changed for different images. Go back to Edge Impulse and under "Live Classification", choose the preferred image and click "Load sample" button. Then, click on the "Copy to clipboard" button and back to the STM32CubeIDE and replace the values in either Array "feature0[]", Array "feature1[]", or Array "feature2[]" for trying out different images of testing datasets.
 
 ![image](https://user-images.githubusercontent.com/82043667/121908645-c70c6e80-cd5f-11eb-9d2d-43600e610e66.png)
 
