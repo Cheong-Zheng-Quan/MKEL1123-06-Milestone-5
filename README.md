@@ -54,6 +54,7 @@ Steps for Building Model in Edge Impulse:
 
 ![image](https://user-images.githubusercontent.com/82043667/121899908-6da04180-cd57-11eb-89b8-04ade1aa4552.png)
 
+Steps for Deploying Model in STM32CubeIDE:
 12. Next, open the STM32CubeIDE and start a new STM32 Project.
 13. Search for "NUCLEO-F446RE" under the "Board Selector" tab. Then click "Next".
 14. Enter the project name and choose "C++" as the Targeted Language.
