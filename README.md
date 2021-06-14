@@ -15,3 +15,12 @@ Steps for Building Model in Edge Impulse:
 2. On "Dashboard", select "LET'S COLLECT SOME DATA".
 
 ![image](https://user-images.githubusercontent.com/82043667/121895225-8e19cd00-cd52-11eb-8b22-86bd0e151fcd.png)
+
+3. Choose "Upload data" and click "Go to the uploader".
+
+![image](https://user-images.githubusercontent.com/82043667/121895373-b99cb780-cd52-11eb-80e1-e13335c3e4de.png)
+
+4. Next, click the "Choose Files" button and upload the images that downloaded previously fromo Kaggle. Then, under "Upload into category" section, choose "Automatically split between training and testing" as a ratio of training data to testing data can be obtained at 80:20 which can help in archieving high accuracy in the training phase later. After that, select "Enter label" and enter the type of fruits images uploaded just now.
+
+![image](https://user-images.githubusercontent.com/82043667/121896473-e8fff400-cd53-11eb-860a-3370366e86cf.png)
+
