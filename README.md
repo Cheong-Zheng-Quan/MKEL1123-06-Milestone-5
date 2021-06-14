@@ -20,8 +20,21 @@ Steps for Building Model in Edge Impulse:
 
 ![image](https://user-images.githubusercontent.com/82043667/121895373-b99cb780-cd52-11eb-80e1-e13335c3e4de.png)
 
-4. Next, click the "Choose Files" button and upload the images that downloaded previously fromo Kaggle. Then, under "Upload into category" section, choose "Automatically split between training and testing" as a ratio of training data to testing data can be obtained at 80:20 which can help in archieving high accuracy in the training phase later. After that, select "Enter label" and enter the type of fruits images uploaded just now.
+4. Next, click the "Choose Files" button and upload the images that downloaded previously fromo Kaggle. Then, under "Upload into category" section, choose "Automatically split between training and testing" as a ratio of training data to testing data can be obtained at 80:20 which can help in archieving high accuracy in the training phase later. After that, select "Enter label" and enter the type of fruits images uploaded just now. Then, click "Begin Upload"
 
 ![image](https://user-images.githubusercontent.com/82043667/121896710-30868000-cd54-11eb-8da7-90f275e163e5.png)
+
+5. After all images are uploaded, go to "Create Impulse" under "Impulse design", and create the impulse according to the image below. Then, save the impulse.
+
+![image](https://user-images.githubusercontent.com/82043667/121897400-e8b42880-cd54-11eb-9514-36834432bd79.png)
+
+6. Next, go to "Image" section and select RGB as the Color Depth Parameter and then save the parameter.
+
+![image](https://user-images.githubusercontent.com/82043667/121897592-1e591180-cd55-11eb-8d31-c7e7f36dd989.png)
+
+7. Once the parameter is saved, click "Generate features" button then both Raw and Processed features are generated and will be used in Model Training phase.
+
+![image](https://user-images.githubusercontent.com/82043667/121897887-6415da00-cd55-11eb-807a-9c12affcf51a.png)
+
 
 
