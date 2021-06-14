@@ -34,7 +34,12 @@ Steps for Building Model in Edge Impulse:
 
 7. Once the parameter is saved, click "Generate features" button then both Raw and Processed features are generated and will be used in Model Training phase.
 
-![image](https://user-images.githubusercontent.com/82043667/121897887-6415da00-cd55-11eb-807a-9c12affcf51a.png)
+![image](https://user-images.githubusercontent.com/82043667/121898040-8dcf0100-cd55-11eb-9a9e-a2b5bf813a97.png)
+
+8. Next, under "NN Classifier" section, set the values for "Number of training cycles", "Learning rate", "Minimum confidence rating", and configure the Neural Network architecture same as the figure below. Once completed, start the training.
+
+![image](https://user-images.githubusercontent.com/82043667/121898441-f4ecb580-cd55-11eb-975a-26dd1d43b254.png)
+
 
 
 
