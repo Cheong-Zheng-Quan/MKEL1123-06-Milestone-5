@@ -48,7 +48,11 @@ Steps for Building Model in Edge Impulse:
 
 ![image](https://user-images.githubusercontent.com/82043667/121899328-e357dd80-cd56-11eb-8e95-1466dab0e75e.png)
 
-11. Lastly, go to "Deployment" section and select "Cube.MX CMSIS-PACK" and make sure the EON Compiler is enabled before click the "Build" button.
+11. Lastly, go to "Deployment" section and select "Cube.MX CMSIS-PACK" and make sure the EON Compiler is enabled before click the "Build" button. Once the "Build" button has been clicked, the PACK file is downloaded, which will be used in the STM32CubeIDE.
 
 ![image](https://user-images.githubusercontent.com/82043667/121899872-65480680-cd57-11eb-9f82-0b3f76701f6c.png)
+
 ![image](https://user-images.githubusercontent.com/82043667/121899908-6da04180-cd57-11eb-89b8-04ade1aa4552.png)
+
+12. Next, open the STM32CubeIDE and start a new project.
+13. 
