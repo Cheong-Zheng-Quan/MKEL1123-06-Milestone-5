@@ -104,7 +104,7 @@ Steps for Deploying Model in STM32CubeIDE:
 
 18. Click on the “Hammer” icon at the top to build the project and make sure there’s no error.
 19. Click on the “Play” icon at the top to run the code on the board. Leave the settings as default and click “OK”. [** Make sure your board is connected to your computer before click the "Play" icon.]
-20. If this message shows up, it means the code has been successfully uploaded and it’s time to check your board!
+20. If the following message shows up, it means the code has been successfully uploaded.
 
 ![image](https://user-images.githubusercontent.com/82043667/121906724-f9b56780-cd5d-11eb-874e-0ade36f42040.png)
 
